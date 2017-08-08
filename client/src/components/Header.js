@@ -6,7 +6,7 @@ class Header extends Component {
   renderContent() {
     switch (this.props.auth) {
       case null:
-        return 'FUCK';
+        return 'whaaaaat?';
       case false:
         return (
           <li>
