@@ -10,7 +10,7 @@ const SurveyNew = () => <h2>SurveyNew</h2>;
 
 class App extends Component {
   componentDidMount() {
-    setTimeout(this.props.fetchUser(), 3000);
+    this.props.fetchUser();
   }
 
   render() {
